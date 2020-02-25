@@ -1,0 +1,255 @@
+/* Fontes externas */
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Cataraman Thin') url('fontes/Catamaran-Thin.ttf'); 
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Cataraman ExtraLight') url('fontes/Catamaran-Thin.ttf'); 
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Cataraman Light') url('fontes/Catamaran-Light.ttf'); 
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Cataraman Regular') url('fontes/Catamaran-Regular.ttf'); 
+  font-weight: 400;
+}
+
+/* Estilos gerais */
+body {
+  background: url('../img/bg-sky.svg');
+}
+
+header {
+  width: 100%;
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  font-weight: 300;
+}
+
+h3 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: .1em;
+  font-weight: 300;
+}
+
+/* Home - Header */
+
+.header {
+  padding: 15px;
+}
+
+.home {
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Catamaran", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.home:hover {
+  color:#1EDCF0;
+}
+
+.menu {
+  text-align: right;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header ul li a {
+  padding: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Catamaran", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+header ul li a:hover {
+  color: #1EDCF0;
+}
+
+p {
+  color: #fff;
+  font-family: "Catamaran", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+  line-height: 20px;
+}
+
+.btn {
+  display: block;
+  padding: 10px 0;
+  width: 150px ;
+  /* padding: 10px 50px; */
+  margin: 0 auto;
+  border-radius: 40px 40px;
+  font-size: 20px;
+  letter-spacing: .1em;
+  font-family: 'Catamaran';
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 100;
+  background: linear-gradient(to right, #0c42f5 0%, #2bbef9 100%);
+}
+
+
+.btn:hover {
+  box-shadow: 0 0 10px #2bbef9;
+}
+
+/* Home - Introdução */
+.introducao {
+  padding-top: 100px;
+}
+
+.lua {
+  padding-left: 60px;
+}
+
+.titulo {
+  margin: 0 auto;
+  margin-left: 10px;
+  text-align: center;
+  font-family: 'Catamaran';
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.titulo h1 {
+  padding-top: 90px;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: .1em;
+  font-weight: 400;
+}
+
+.titulo h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  font-weight: 300;
+}
+
+
+/* Home - Perfil */
+.perfil {
+  padding-top: 150px;
+  font-family: 'Catamaran';
+  color: #fff;
+}
+
+.foto_perfil{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 43px 20px 0 100px;
+}
+
+.perfil ul {
+  padding-top: 50px;
+}
+
+.perfil ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 30px 20px 0;
+  font-weight: 400;
+}
+
+.call {
+  padding-top: 70px;
+  text-align: center;
+}
+
+/* Home - Principais Projetos */
+
+.principais-projetos {
+  padding-top: 150px;
+}
+
+.principais-projetos.titulo {
+  font-family: 'Cataraman',Arial, Helvetica, sans-serif;
+}
+
+.cards-container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.cards-container img{
+  padding: 30px 75px;
+  background: #c1c1c1;
+  border-radius: 15px 15px 0 0;
+  margin: 0 auto;
+}
+.card {
+  background: #fff;
+  max-width: 275px;
+  border-radius:15px 15px 15px 15px;
+  margin: 0 22px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+ 
+.cards-container h3 {
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+
+.cards-container h4 {
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+
+.cards-container p {
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+} 
+
+.call-min {
+  padding: 30px 0;
+}
+
+.btn-min {
+  width: 100px ;
+  padding: 3px 0;
+  margin: 0 auto;
+  border-radius: 40px 40px;
+  font-size: 16px;
+}
+
+.call-projetos {
+  clear: both;
+  margin-top: 30px;
+}

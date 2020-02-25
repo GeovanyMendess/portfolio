@@ -1,0 +1,12 @@
+<svg id="phone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="125" viewBox="0 0 125 125">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0" stop-color="#1f81a8"/>
+      <stop offset="1" stop-color="#042c41"/>
+      <stop offset="1" stop-color="#1f81a8"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_14" data-name="Path 14" d="M80.571,1H25.61C14.228,1,5,8.28,5,17.26v86.717c0,8.98,9.228,16.26,20.61,16.26H80.571c11.383,0,20.61-7.28,20.61-16.26V17.26C101.182,8.28,91.954,1,80.571,1ZM66.831,109.4H39.351v-5.42H66.831Zm22.328-16.26H17.023V17.26H89.159Z" transform="translate(9.409 1.882)" fill="url(#linear-gradient)"/>
+  <path id="Path_15" data-name="Path 15" d="M0,0H125V125H0Z" fill="none"/>
+</svg>
