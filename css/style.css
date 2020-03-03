@@ -1,35 +1,32 @@
 /* Fontes externas */
 @font-face {
   font-family: 'Catamaran';
-  src: local('Cataraman Thin') url('fontes/Catamaran-Thin.ttf'); 
+  src: local('Catamaran Thin') url('fontes/Catamaran-Thin.ttf'); 
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Catamaran';
-  src: local('Cataraman ExtraLight') url('fontes/Catamaran-Thin.ttf'); 
+  src: local('CatamaranExtraLight') url('fontes/Catamaran-Thin.ttf'); 
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'Catamaran';
-  src: local('Cataraman Light') url('fontes/Catamaran-Light.ttf'); 
+  src: local('Catamaran Light') url('fontes/Catamaran-Light.ttf'); 
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'Catamaran';
-  src: local('Cataraman Regular') url('fontes/Catamaran-Regular.ttf'); 
+  src: local('Catamaran Regular') url('fontes/Catamaran-Regular.ttf'); 
   font-weight: 400;
 }
 
 /* Estilos gerais */
-body {
-  background: url('../img/bg-sky.svg');
-}
 
-header {
-  width: 100%;
+body { 
+  background: url('../img/bg-sky.svg') no-repeat center center fixed; 
 }
 
 h2 {
@@ -51,10 +48,6 @@ h3 {
 }
 
 /* Home - Header */
-
-.header {
-  padding: 15px;
-}
 
 .home {
   color: #fff;
@@ -100,13 +93,21 @@ p {
   line-height: 20px;
 }
 
+.call {
+  padding-top: 50px;
+}
+
+.call p {
+  text-align: center;
+}
+
 .btn {
   display: block;
   padding: 10px 0;
-  width: 150px ;
-  /* padding: 10px 50px; */
-  margin: 0 auto;
+  width: 150px;
+  margin: 10px auto 0 auto;
   border-radius: 40px 40px;
+  text-align: center;
   font-size: 20px;
   letter-spacing: .1em;
   font-family: 'Catamaran';
@@ -114,11 +115,14 @@ p {
   color: #fff;
   font-weight: 100;
   background: linear-gradient(to right, #0c42f5 0%, #2bbef9 100%);
+  clear: both;
 }
 
 
 .btn:hover {
-  box-shadow: 0 0 10px #2bbef9;
+  transition-duration: 0.2s;
+  box-shadow: 0 0 0 3px #2bbef9;
+  background: none;
 }
 
 /* Home - Introdução */
@@ -139,7 +143,7 @@ p {
   color: #fff;
 }
 
-.titulo h1 {
+  h1 {
   padding-top: 90px;
   font-size: 40px;
   line-height: 40px;
@@ -147,7 +151,7 @@ p {
   font-weight: 400;
 }
 
-.titulo h2 {
+  h2 {
   margin: 0 auto;
   text-align: center;
   font-size: 30px;
@@ -160,7 +164,7 @@ p {
 /* Home - Perfil */
 .perfil {
   padding-top: 150px;
-  font-family: 'Catamaran';
+  font-family: 'Catamaran',Arial, Helvetica, sans-serif;
   color: #fff;
 }
 
@@ -174,6 +178,7 @@ p {
 
 .perfil ul {
   padding-top: 50px;
+  margin-bottom: 0;
 }
 
 .perfil ul li {
@@ -183,11 +188,6 @@ p {
   font-weight: 400;
 }
 
-.call {
-  padding-top: 70px;
-  text-align: center;
-}
-
 /* Home - Principais Projetos */
 
 .principais-projetos {
@@ -195,18 +195,21 @@ p {
 }
 
 .principais-projetos.titulo {
-  font-family: 'Cataraman',Arial, Helvetica, sans-serif;
+  font-family: 'Catamaran',Arial, Helvetica, sans-serif;
 }
 
 .cards-container {
+  display: block;
   padding-top: 100px;
   text-align: center;
 }
 
+.card h3,h4 {
+  color: #000000;
+}
+
 .cards-container img{
-  padding: 30px 75px;
-  background: #c1c1c1;
-  border-radius: 15px 15px 0 0;
+  padding: 20px 75px;
   margin: 0 auto;
 }
 .card {
@@ -217,6 +220,7 @@ p {
 }
 
 .card:hover {
+  cursor: pointer;
   transform: scale(1.1);
   transition-duration: 0.5s;
 }
@@ -235,21 +239,41 @@ p {
   padding: 10px;
   text-align: center;
   color: #000000;
+  margin-bottom: 20px;
 } 
-
-.call-min {
-  padding: 30px 0;
-}
 
 .btn-min {
   width: 100px ;
   padding: 3px 0;
-  margin: 0 auto;
+  margin: 15px auto;
   border-radius: 40px 40px;
   font-size: 16px;
 }
 
-.call-projetos {
-  clear: both;
-  margin-top: 30px;
+.btn-projetos {
+  margin-top: 430px;
 }
+
+/* Citação */
+
+.quote {
+  padding-top: 150px;
+}
+
+.quote q, .quote cite{
+  display: block;
+  text-align: center;
+  font-family: 'Catamaran',Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: #1EDCF0;
+}
+
+.quote q {
+  font-style: italic;
+}
+
+
+
+
+

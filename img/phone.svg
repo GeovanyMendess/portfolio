@@ -1,12 +1,14 @@
-<svg id="phone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="125" viewBox="0 0 125 125">
+<svg id="phone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient" x1="-0.146" y1="0.43" x2="1.643" y2="0.401" gradientUnits="objectBoundingBox">
       <stop offset="0"/>
-      <stop offset="0" stop-color="#1f81a8"/>
+      <stop offset="0" stop-color="#16a6f2"/>
+      <stop offset="0.289" stop-color="#1f81a8"/>
+      <stop offset="0.876" stop-color="#0948f4"/>
       <stop offset="1" stop-color="#042c41"/>
       <stop offset="1" stop-color="#1f81a8"/>
     </linearGradient>
   </defs>
-  <path id="Path_14" data-name="Path 14" d="M80.571,1H25.61C14.228,1,5,8.28,5,17.26v86.717c0,8.98,9.228,16.26,20.61,16.26H80.571c11.383,0,20.61-7.28,20.61-16.26V17.26C101.182,8.28,91.954,1,80.571,1ZM66.831,109.4H39.351v-5.42H66.831Zm22.328-16.26H17.023V17.26H89.159Z" transform="translate(9.409 1.882)" fill="url(#linear-gradient)"/>
-  <path id="Path_15" data-name="Path 15" d="M0,0H125V125H0Z" fill="none"/>
+  <path id="Path_14" data-name="Path 14" d="M60.928,1H20.253C11.829,1,5,6.754,5,13.851V82.386c0,7.1,6.829,12.851,15.253,12.851H60.928c8.424,0,15.253-5.754,15.253-12.851V13.851C76.182,6.754,69.352,1,60.928,1ZM50.759,86.672H30.422V82.389H50.759ZM67.284,73.821H13.9V13.851H67.284Z" transform="translate(9.409 1.882)" fill="url(#linear-gradient)"/>
+  <path id="Path_15" data-name="Path 15" d="M0,0H100V100H0Z" fill="none"/>
 </svg>

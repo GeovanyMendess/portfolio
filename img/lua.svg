@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="243" height="243" viewBox="0 0 243 243">
-  <g id="lua" transform="translate(-111 -111)">
-    <circle id="raio-luz-2" cx="121.5" cy="121.5" r="121.5" transform="translate(111 111)" fill="#fff" opacity="0.5"/>
-    <circle id="raio-luz-1" cx="106.5" cy="106.5" r="106.5" transform="translate(126 126)" fill="#fbebeb" opacity="0.6"/>
-    <circle id="lua-2" data-name="lua" cx="98.5" cy="98.5" r="98.5" transform="translate(134 134)" fill="#fff"/>
-    <circle id="Ellipse_36" data-name="Ellipse 36" cx="18.5" cy="18.5" r="18.5" transform="translate(293 220)" fill="#c7c7c7"/>
-    <path id="Path_9" data-name="Path 9" d="M18.712-14.626C31.69-14.626,47,10.521,47,23.5A23.5,23.5,0,0,1,23.5,47C10.521,47-16.615,31.03-16.615,18.051S5.733-14.626,18.712-14.626Z" transform="translate(202 213)" fill="#c7c7c7"/>
-    <path id="Path_6" data-name="Path 6" d="M37,4.6H59.791S85.4,4.565,85.4,16.968C85.4,37.4,57.435,48.16,37,48.16a37,37,0,0,1-37-37C0-9.274,16.565,4.6,37,4.6Z" transform="translate(280.131 220.108) rotate(-139)" fill="#c7c7c7"/>
-    <path id="Path_5" data-name="Path 5" d="M18.06,0c11.6,0,9.248,3.5,9.248,15.1,0,1.16,3.255,13.493,3.023,14.9C28.755,39.677,24.569,45.1,14.131,45.1,2.533,45.1,0,28.439,0,16.841S6.462,0,18.06,0Z" transform="translate(180.579 154.979) rotate(43)" fill="#c7c7c7"/>
-    <circle id="Ellipse_35" data-name="Ellipse 35" cx="18.5" cy="18.5" r="18.5" transform="translate(293 214)" fill="#c7c7c7"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="321" height="312.732" viewBox="0 0 321 312.732">
+  <defs>
+    <filter id="lua" x="0" y="0" width="321" height="312.732" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#f1eaea"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="lua-2" data-name="lua" transform="translate(-104 -106)">
+    <g transform="matrix(1, 0, 0, 1, 104, 106)" filter="url(#lua)">
+      <ellipse id="lua-3" data-name="lua" cx="130.5" cy="126.366" rx="130.5" ry="126.366" transform="translate(30 30)" fill="#fff"/>
+    </g>
+    <circle id="Ellipse_36" data-name="Ellipse 36" cx="24.5" cy="24.5" r="24.5" transform="translate(345 245.41)" fill="#c7c7c7"/>
+    <path id="Path_9" data-name="Path 9" d="M30.226-14.626c17.209,0,37.508,33.343,37.508,50.552A31.159,31.159,0,0,1,36.574,67.085c-17.209,0-53.189-21.175-53.189-38.383S13.017-14.626,30.226-14.626Z" transform="translate(218.747 231.895)" fill="#c7c7c7"/>
+    <path id="Path_6" data-name="Path 6" d="M49.059,6.1H79.278s33.959-.052,33.959,16.394c0,27.095-37.084,41.358-64.178,41.358A49.059,49.059,0,0,1,0,14.8C0-12.3,21.964,6.1,49.059,6.1Z" transform="translate(327.758 250.215) rotate(-139)" fill="#c7c7c7"/>
+    <path id="Path_5" data-name="Path 5" d="M23.946,0C39.324,0,36.209,4.64,36.209,20.018c0,1.538,4.316,17.89,4.009,19.752C38.127,52.609,32.576,59.8,18.736,59.8,3.358,59.8,0,37.708,0,22.33S8.568,0,23.946,0Z" transform="translate(195.759 163.86) rotate(43)" fill="#c7c7c7"/>
+    <circle id="Ellipse_35" data-name="Ellipse 35" cx="24.5" cy="24.5" r="24.5" transform="translate(345 237.711)" fill="#c7c7c7"/>
   </g>
 </svg>
