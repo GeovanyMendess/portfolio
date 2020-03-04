@@ -1,32 +1,32 @@
 /* Fontes externas */
 @font-face {
   font-family: 'Catamaran';
-  src: local('Catamaran Thin') url('fontes/Catamaran-Thin.ttf'); 
+  src: local('Catamaran Thin') url('fontes/Catamaran-Thin.ttf');
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Catamaran';
-  src: local('CatamaranExtraLight') url('fontes/Catamaran-Thin.ttf'); 
+  src: local('CatamaranExtraLight') url('fontes/Catamaran-Thin.ttf');
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'Catamaran';
-  src: local('Catamaran Light') url('fontes/Catamaran-Light.ttf'); 
+  src: local('Catamaran Light') url('fontes/Catamaran-Light.ttf');
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'Catamaran';
-  src: local('Catamaran Regular') url('fontes/Catamaran-Regular.ttf'); 
+  src: local('Catamaran Regular') url('fontes/Catamaran-Regular.ttf');
   font-weight: 400;
 }
 
 /* Estilos gerais */
 
-body { 
-  background: url('../img/bg-sky.svg') no-repeat center center fixed; 
+body {
+  background: url('../img/bg-sky.svg') no-repeat center center fixed;
 }
 
 h2 {
@@ -59,30 +59,38 @@ h3 {
 }
 
 .home:hover {
-  color:#1EDCF0;
+  color: #1EDCF0;
 }
 
 .menu {
-  text-align: right;
+  border-radius: 10px 10px;
+  max-width: 110px ;
+  margin: 200px 0 250px 1220px;
+  position: fixed;
+  background: #fff;
 }
 
-header ul li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-header ul li a {
-  padding: 5px;
-  color: #fff;
+.menu ul li {
+  padding: 20px;
+  margin: 0 auto;
+  color: #000000;
   text-transform: uppercase;
   font-family: "Catamaran", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  display: block;
 }
 
-header ul li a:hover {
-  color: #1EDCF0;
+header ul li:hover {
+  cursor: pointer;
 }
+
+.ativo {
+  transition-duration: 0.4s;
+  color: #fff;
+  background: linear-gradient(to bottom,  #0c42f5 0%, #2bbef9 100%);
+} 
 
 p {
   color: #fff;
@@ -143,7 +151,7 @@ p {
   color: #fff;
 }
 
-  h1 {
+h1 {
   padding-top: 90px;
   font-size: 40px;
   line-height: 40px;
@@ -151,7 +159,7 @@ p {
   font-weight: 400;
 }
 
-  h2 {
+h2 {
   margin: 0 auto;
   text-align: center;
   font-size: 30px;
@@ -163,12 +171,13 @@ p {
 
 /* Home - Perfil */
 .perfil {
+  margin: 0 auto;
   padding-top: 150px;
-  font-family: 'Catamaran',Arial, Helvetica, sans-serif;
+  font-family: 'Catamaran', Arial, Helvetica, sans-serif;
   color: #fff;
 }
 
-.foto_perfil{
+.foto_perfil {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -195,7 +204,7 @@ p {
 }
 
 .principais-projetos.titulo {
-  font-family: 'Catamaran',Arial, Helvetica, sans-serif;
+  font-family: 'Catamaran', Arial, Helvetica, sans-serif;
 }
 
 .cards-container {
@@ -204,18 +213,20 @@ p {
   text-align: center;
 }
 
-.card h3,h4 {
+.card h3,
+h4 {
   color: #000000;
 }
 
-.cards-container img{
+.cards-container img {
   padding: 20px 75px;
   margin: 0 auto;
 }
+
 .card {
   background: #fff;
   max-width: 275px;
-  border-radius:15px 15px 15px 15px;
+  border-radius: 15px 15px;
   margin: 0 22px;
 }
 
@@ -224,7 +235,7 @@ p {
   transform: scale(1.1);
   transition-duration: 0.5s;
 }
- 
+
 .cards-container h3 {
   margin: 10px auto;
   text-transform: uppercase;
@@ -240,10 +251,10 @@ p {
   text-align: center;
   color: #000000;
   margin-bottom: 20px;
-} 
+}
 
 .btn-min {
-  width: 100px ;
+  width: 100px;
   padding: 3px 0;
   margin: 15px auto;
   border-radius: 40px 40px;
@@ -260,10 +271,11 @@ p {
   padding-top: 150px;
 }
 
-.quote q, .quote cite{
+.quote q,
+.quote cite {
   display: block;
   text-align: center;
-  font-family: 'Catamaran',Arial, Helvetica, sans-serif;
+  font-family: 'Catamaran', Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-size: 30px;
   color: #1EDCF0;
@@ -273,7 +285,45 @@ p {
   font-style: italic;
 }
 
+/* Footer */
+.footer {
+  padding: 40px 0;
+  margin-top: 60px;
+  background: linear-gradient(to bottom, #0c42f5 0%, #2bbef9 100%);
+  color: #fff;
+}
 
+.footer h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: .1em;
+}
 
+.footer ul {
+  text-align: center;
+  margin: 0 auto;
+}
 
+.footer li {
+  text-align: center;
+  font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: .1em;
+}
 
+.footer li:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.footer li:nth-child(2) {
+  display: inline-block;
+}
+
+.footer li:nth-child(3) {
+  margin-left: 10px;
+  display: inline-block;
+}
