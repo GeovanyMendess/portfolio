@@ -201,11 +201,16 @@ h2 {
 /* Home - Principais Projetos */
 
 .principais-projetos {
+  margin: 0 auto;
   padding-top: 150px;
 }
 
 .principais-projetos.titulo {
   font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+}
+
+.principais-projetos ul li {
+  display: block;
 }
 
 .cards-container {
@@ -226,9 +231,7 @@ h4 {
 
 .card {
   background: #fff;
-  max-width: 275px;
   border-radius: 15px 15px;
-  margin: 0 22px;
 }
 
 .card:hover {
@@ -254,12 +257,9 @@ h4 {
   margin-bottom: 20px;
 }
 
-.btn-min {
-  width: 100px;
-  padding: 3px 0;
-  margin: 15px auto;
-  border-radius: 40px 40px;
-  font-size: 16px;
+.call p {
+  text-align: center;
+  clear: both;
 }
 
 .btn-projetos {
