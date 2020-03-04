@@ -171,6 +171,7 @@ h2 {
 
 /* Home - Perfil */
 .perfil {
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 150px;
   font-family: 'Catamaran', Arial, Helvetica, sans-serif;
